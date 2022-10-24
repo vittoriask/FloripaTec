@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculo idade</title>
+    <title>Média</title>
+
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+        }
+    </style>
 </head>
 <body>
+    <form>
+        <label>Nota1</label> <br>
+        <input type="text" id="nota1"> <br>
+
+        <label>Nota2</label> <br>
+        <input type="text" id="nota2"> <br>
+
+        <label>Nota3</label> <br>
+        <input type="text" id="nota3"> <br>
+
+        <label>Nota4</label> <br>
+        <input type="text" id="nota4"> <br>
+
+        <input type="button" value="Enviar" onclick="calculaMedia()">
+    </form>
+
+    <p id="resultado"></p>
+
+    <script type="text/javascript" src="index.js"></script>
     
 </body>
 </html>
